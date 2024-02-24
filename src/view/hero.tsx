@@ -22,7 +22,7 @@ export default function Hero() {
         <p className="leading-7 [&:not(:first-child)]:mt-8 text-gray-600">
           Anyone can beat you but no one can beat your outfit as long as <br /> you wear Dine outfits.
         </p>
-        <Link href={"/products"}></Link><Button className='mt-8 font-semibold text-sm px-6 lg:px-8 h-12 lg:h-14 bg-[#212121]'>
+        <Link href={"/products"}><Button className='mt-8 font-semibold text-sm px-6 lg:px-8 h-12 lg:h-14 bg-[#212121]'>
           <ShoppingCart className="mr-2 h-5 w-5 flex justify-center items-center" /> Start Shopping
         </Button></Link>
         <div className='flex flex-wrap gap-x-20 lg:gap-x-16 mt-10 gap-y-8  lg:mt-24'>
