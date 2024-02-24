@@ -8,6 +8,7 @@ import logo3 from "/public/assets/ht3.webp"
 import logo4 from "/public/assets/ht4.webp"
 import { Button } from '@/components/ui/button'
 import { ShoppingCart } from "lucide-react"
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -21,9 +22,9 @@ export default function Hero() {
         <p className="leading-7 [&:not(:first-child)]:mt-8 text-gray-600">
           Anyone can beat you but no one can beat your outfit as long as <br /> you wear Dine outfits.
         </p>
-        <Button className='mt-8 font-semibold text-sm px-6 lg:px-8 h-12 lg:h-14 bg-[#212121]'>
+        <Link href={"/products"}></Link><Button className='mt-8 font-semibold text-sm px-6 lg:px-8 h-12 lg:h-14 bg-[#212121]'>
           <ShoppingCart className="mr-2 h-5 w-5 flex justify-center items-center" /> Start Shopping
-        </Button>
+        </Button></Link>
         <div className='flex flex-wrap gap-x-20 lg:gap-x-16 mt-10 gap-y-8  lg:mt-24'>
           <Image src={logo1} alt='image' />
           <Image src={logo2} alt='image' />
