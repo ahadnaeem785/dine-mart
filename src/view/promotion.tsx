@@ -12,9 +12,9 @@ export default function Promotion() {
             </h2>
             <div className='flex flex-col lg:flex-row  gap-6 mt-6'>
                 <div className='basis-7/12'>
-                    <div className='flex justify-between  bg-gray-300 pt-10 lg:pt-0'>
+                    <div className='flex justify-between  bg-gray-300 pt-12 lg:pt-0'>
                         <div className='flex flex-col justify-center ml-6 '>
-                            <h2 className=' text-2xl lg:text-3xl font-bold -mt-4 lg:-mt-0'>GET UP TO <span className='text-3xl font-bold'>60%</span></h2>
+                            <h2 className=' text-2xl lg:text-3xl font-bold -mt-6 lg:-mt-0'>GET UP TO <span className='text-3xl font-bold'>60%</span></h2>
                             <p className=' text-sm lg:text-lg lg:mt-1'>For the summer season</p>
                         </div>
                         <div><Image src={p1} alt='image' /></div>
